@@ -1,4 +1,4 @@
-# Guia Completo de JavaScript (GuiaJS) 🚀
+# GuiaJS 🚀
 
 Bem-vindo ao GuiaJS, um recurso prático e abrangente para aprender JavaScript, desde conceitos básicos até tópicos mais avançados. Este guia é perfeito para iniciantes e intermediários que desejam aprender ou revisar os fundamentos dessa poderosa linguagem de programação.
 
