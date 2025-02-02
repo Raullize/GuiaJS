@@ -1,6 +1,6 @@
-# GuiaJS 🚀
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=180&section=header&text=GuiaJS&fontSize=30&fontColor=fff&animation=twinkling&fontAlignY=35"/>
 
-Bem-vindo ao GuiaJS, um recurso prático e abrangente para aprender JavaScript, desde conceitos básicos até tópicos mais avançados. Este guia é perfeito para iniciantes e intermediários que desejam aprender ou revisar os fundamentos dessa poderosa linguagem de programação.
+Bem-vindo ao **GuiaJS**, um recurso prático e abrangente para aprender JavaScript, desde conceitos básicos até tópicos mais avançados. Este guia é perfeito para iniciantes e intermediários que desejam aprender ou revisar os fundamentos dessa poderosa linguagem de programação.
 
 ## O que é JavaScript? 🤔
 JavaScript é uma linguagem de programação leve, interpretada e baseada em protótipos. É amplamente utilizada para adicionar interatividade às páginas web, manipular elementos HTML/CSS e desenvolver aplicações modernas.
@@ -358,3 +358,5 @@ console.log(objeto.nome); // Saída: Raul
 Esperamos que este guia tenha sido útil para você! 😄 Continuaremos expandindo com mais dicas e exemplos.
 
 🎯 **Contribuições são bem-vindas!** Caso queira adicionar algo, faça um pull request no repositório.
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>
