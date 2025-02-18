@@ -1,11 +1,13 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=180&section=header&text=GuiaJS&fontSize=30&fontColor=fff&animation=twinkling&fontAlignY=35"/>
 
+# 📘 GuiaJS
+
 Bem-vindo ao **GuiaJS**, um recurso prático e abrangente para aprender JavaScript, desde conceitos básicos até tópicos mais avançados. Este guia é perfeito para iniciantes e intermediários que desejam aprender ou revisar os fundamentos dessa poderosa linguagem de programação.
 
-## O que é JavaScript? 🤔
+## 🤔 O que é JavaScript? 
 JavaScript é uma linguagem de programação leve, interpretada e baseada em protótipos. É amplamente utilizada para adicionar interatividade às páginas web, manipular elementos HTML/CSS e desenvolver aplicações modernas.
 
-## Como criar e usar um arquivo JavaScript 📄
+## 📄 Como criar e usar um arquivo JavaScript 
 
 Para adicionar um arquivo JavaScript ao seu projeto, siga estes passos:
 
@@ -33,7 +35,7 @@ Exemplo básico:
 - O atributo `defer` garante que o arquivo JavaScript será carregado em segundo plano e executado apenas após o carregamento completo do HTML.
 - Isso melhora o desempenho da página e evita problemas de acesso a elementos DOM que ainda não foram renderizados.
 
-## Tipos de Dados 📦
+## 📦 Tipos de Dados 
 
 JavaScript possui diferentes tipos de dados para armazenar valores. Os mais comuns incluem:
 
@@ -53,7 +55,7 @@ let idade = 25;      // Number
 let ativo = true;    // Boolean
 ```
 
-## Variáveis ✏️
+## ✏️ Variáveis 
 
 Em JavaScript, você pode declarar variáveis utilizando `var`, `let` ou `const`:
 
@@ -68,7 +70,7 @@ let nome = "João";    // Pode ser alterado
 const idade = 30;     // Não pode ser alterado
 ```
 
-## Operadores e Expressões ➕➖✖️➗
+## ➕➖✖️➗ Operadores e Expressões 
 
 Operadores em JavaScript permitem manipular valores. Alguns exemplos incluem:
 
@@ -86,7 +88,7 @@ console.log(a + b); // Soma: 30
 console.log(a > b); // Comparação: false
 ```
 
-## Comentários 📝
+## 📝 Comentários 
 
 Comentários ajudam a explicar partes do código e são ignorados pelo interpretador. Use:
 
@@ -104,7 +106,7 @@ multilinha
 */
 ```
 
-## Estruturas Condicionais 🔀
+## 🔀 Estruturas Condicionais 
 
 ### **`if` e `else`**
 A estrutura condicional `if` avalia uma condição e executa um bloco de código se ela for verdadeira. O `else` é opcional e é executado quando a condição é falsa.
@@ -141,7 +143,7 @@ switch (cor) {
 }
 ```
 
-## Estruturas de Repetição ♻️
+## ♻️ Estruturas de Repetição 
 
 ### **`while`**
 Executa um bloco de código enquanto a condição for verdadeira.
@@ -182,7 +184,7 @@ for (let i = 0; i < 5; i++) {
 }
 ```
 
-## Arrays e Arrays Bidimensionais 🔢
+## 🔢 Arrays e Arrays Bidimensionais 
 
 ### Arrays
 Um array é uma lista ordenada de elementos.
@@ -239,7 +241,7 @@ let pessoa = {
 console.log(pessoa.saudacao());
 ```
 
-## Funções 🔢
+## 🔢 Funções 
 
 ### O que são Funções?
 Funções são blocos de código reutilizáveis que realizam uma tarefa específica. Elas ajudam a organizar e modularizar o código, tornando-o mais legível e fácil de manter. Uma função pode receber parâmetros como entrada e retornar um resultado.
@@ -302,7 +304,7 @@ console.log(fatorial(5)); // Saída: 120
 - A função **fatorial** calcula o produto de todos os números inteiros positivos até `n`.
 - A condição de parada (`n === 0`) é essencial para evitar loops infinitos.
 
-## Objetos Globais 🌐
+## 🌐 Objetos Globais 
 
 Os Objetos Globais em JavaScript estão sempre disponíveis, sem a necessidade de importação. Eles oferecem funcionalidades úteis que podem ser utilizadas em diferentes contextos.
 
