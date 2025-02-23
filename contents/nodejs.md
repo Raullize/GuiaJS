@@ -2,7 +2,7 @@
 
 # 🚀 Node.js
 
-## O que é Node.js?
+## 🤔 O que é Node.js?
 
 **Node.js** é um ambiente de execução para JavaScript fora do navegador, construído no motor **V8** do Google Chrome. Ele permite que você execute código JavaScript no lado do servidor, tornando-o ideal para criar aplicações escaláveis e de alta performance.
 
