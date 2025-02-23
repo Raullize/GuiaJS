@@ -236,7 +236,7 @@ while (contador < 5) {
 }
 ```
 
-### **`do...while`**
+### **`do while`**
 Semelhante ao `while`, mas garante que o bloco será executado pelo menos uma vez.
 
 Exemplo:
@@ -256,6 +256,8 @@ Ideal para laços com um número definido de iterações.
 Exemplo:
 
 ```javascript
+// inicialização; condição; incremento
+
 for (let i = 0; i < 5; i++) {
     console.log(i);
 }
