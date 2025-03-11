@@ -15,7 +15,7 @@ Bem-vindo ao **GuiaJS**, um recurso prático e abrangente para aprender JavaScri
 7. [📝 Comentários](contents/comentarios.md)
 8. [⚠️ ASI (Automatic Semicolon Insertion)](contents/asi.md)
 9. [📌 Tipos de Dados](contents/tipos-dados.md)
-10. [🔢 Variáveis: \`var\`, \`let\`, \`const\`](contents/variaveis.md)
+10. [🔢 Variáveis: var, let, const](contents/variaveis.md)
 11. [➕➖✖️➗ Operadores e Expressões](contents/operadores.md)
 12. [🔀 Estruturas Condicionais](contents/condicionais.md)
 13. [♻️ Estruturas de Repetição](contents/repeticao.md)
