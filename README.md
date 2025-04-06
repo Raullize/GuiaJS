@@ -38,6 +38,7 @@ Bem-vindo ao **GuiaJS**, um recurso prático e abrangente para aprender JavaScri
 30. [🔢 Funções](contents/funcoes.md)
 31. [🔢 Tipos de Funções](contents/tipos-funcoes.md)
 32. [🌐 Objetos Globais](contents/objetos-globais.md)
+33. [✨ Clean Code em JavaScript](contents/clean-code.md)
 
 ---
 
@@ -61,10 +62,121 @@ Atualmente, o JavaScript vai muito além dos navegadores, sendo utilizado para:
 
 ---
 
+<h2 id="clean-code">✨ Clean Code em JavaScript</h2>
+
+Clean Code (Código Limpo) refere-se a um conjunto de práticas que tornam seu código mais legível, manutenível e menos propenso a erros. Baseado nos princípios do livro "Clean Code" de Robert C. Martin, adaptados para JavaScript.
+
+Princípios fundamentais:
+
+- 🔤 **Nomenclatura Clara**: Use nomes que revelem a intenção
+  ```javascript
+  // Ruim
+  const d = new Date() - 86400000;
+  
+  // Bom
+  const MILLISECONDS_IN_A_DAY = 86400000;
+  const yesterday = new Date(Date.now() - MILLISECONDS_IN_A_DAY);
+  ```
+
+- 🧩 **Funções Pequenas e Focadas**: Cada função deve fazer apenas uma coisa
+  ```javascript
+  // Ruim
+  function getAndSaveUserData(id) {
+    const user = fetch(`/users/${id}`);
+    localStorage.setItem('user', JSON.stringify(user));
+    return user;
+  }
+  
+  // Bom
+  function getUser(id) {
+    return fetch(`/users/${id}`);
+  }
+  
+  function saveUser(user) {
+    localStorage.setItem('user', JSON.stringify(user));
+  }
+  ```
+
+- 🧪 **Evite Efeitos Colaterais**: Funções não devem modificar valores externos inesperadamente
+  ```javascript
+  // Ruim - modifica o array original
+  function addItem(cart, item) {
+    cart.push(item);
+    return cart;
+  }
+  
+  // Bom - retorna um novo array sem modificar o original
+  function addItem(cart, item) {
+    return [...cart, item];
+  }
+  ```
+
+- 🔍 **DRY (Don't Repeat Yourself)**: Evite código duplicado
+  ```javascript
+  // Ruim - lógica repetida
+  function validateEmail(email) {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+  }
+  
+  function isValidEmail(email) {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+  }
+  
+  // Bom
+  function validateEmail(email) {
+    const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return regex.test(email);
+  }
+  ```
+
+- 🧠 **Prefira Programação Funcional**: Use métodos funcionais para arrays
+  ```javascript
+  // Ruim
+  const total = 0;
+  for (let i = 0; i < orders.length; i++) {
+    total += orders[i].price;
+  }
+  
+  // Bom
+  const total = orders.reduce((sum, order) => sum + order.price, 0);
+  ```
+
+- 🛡️ **Tratamento de Erros Adequado**: Capture e trate exceções corretamente
+  ```javascript
+  // Ruim
+  try {
+    riskyOperation();
+  } catch (error) {
+    console.log(error);
+  }
+  
+  // Bom
+  try {
+    riskyOperation();
+  } catch (error) {
+    logError(error);
+    notifyUser(error);
+  }
+  ```
+
+- 📏 **SOLID**: Princípios de design orientado a objetos
+  - **S**ingle Responsibility: Uma classe deve ter apenas um motivo para mudar
+  - **O**pen/Closed: Aberto para extensão, fechado para modificação
+  - **L**iskov Substitution: Subtipos devem ser substituíveis por seus tipos base
+  - **I**nterface Segregation: Interfaces específicas são melhores que uma geral
+  - **D**ependency Inversion: Dependa de abstrações, não de implementações
+
+Código limpo não é apenas sobre fazer o código funcionar, mas fazê-lo de forma que outros desenvolvedores (incluindo você no futuro) possam facilmente entendê-lo e mantê-lo.
+
+---
+
 ## 🌐 Recursos Adicionais
 - [MDN Web Docs: JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [W3Schools: JavaScript](https://www.w3schools.com/js/)
 - [JavaScript.info](https://javascript.info)
+- [Clean Code JavaScript](https://github.com/ryanmcdermott/clean-code-javascript)
 
 ---
 
