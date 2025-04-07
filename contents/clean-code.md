@@ -1,3 +1,5 @@
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
+
 # ✨ Clean Code em JavaScript
 
 Clean Code (Código Limpo) é um conjunto de práticas e princípios que visam tornar seu código mais legível, manutenível e menos propenso a erros. Estas práticas foram popularizadas por Robert C. Martin em seu livro "Clean Code" e adaptadas para diversas linguagens, incluindo JavaScript.
@@ -526,3 +528,9 @@ Código limpo não é apenas sobre fazer o código funcionar, mas fazê-lo de um
 - [Clean Code JavaScript (GitHub)](https://github.com/ryanmcdermott/clean-code-javascript)
 - [Livro: Clean Code de Robert C. Martin](https://www.amazon.com.br/C%C3%B3digo-Limpo-Habilidades-Pr%C3%A1ticas-Software/dp/8576082675)
 - [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) 
+
+---
+
+[🔙 Voltar ao índice principal](../README.md)
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/> 
