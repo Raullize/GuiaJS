@@ -38,7 +38,8 @@ Bem-vindo ao **GuiaJS**, um recurso prático e abrangente para aprender JavaScri
 30. [🔢 Funções](contents/funcoes.md)
 31. [🔢 Tipos de Funções](contents/tipos-funcoes.md)
 32. [🌐 Objetos Globais](contents/objetos-globais.md)
-33. [✨ Clean Code em JavaScript](contents/clean-code.md)
+33. [🏗️ Estruturação de Projetos](contents/estrutura-projeto.md)
+34. [✨ Clean Code em JavaScript](contents/clean-code.md)
 
 ---
 
