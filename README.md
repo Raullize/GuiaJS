@@ -38,8 +38,11 @@ Bem-vindo ao **GuiaJS**, um recurso prático e abrangente para aprender JavaScri
 30. [🔢 Funções](contents/funcoes.md)
 31. [🔢 Tipos de Funções](contents/tipos-funcoes.md)
 32. [🌐 Objetos Globais](contents/objetos-globais.md)
-33. [🏗️ Estruturação de Projetos](contents/estrutura-projeto.md)
-34. [✨ Clean Code em JavaScript](contents/clean-code.md)
+33. [📦 ES Modules (Import/Export)](contents/es-modules.md)
+34. [🔄 Rest/Spread Operator](contents/rest-spread-operator.md)
+35. [🛠️ Compiladores e Bundlers](contents/compiladores-bundlers.md)
+36. [🏗️ Estruturação de Projetos](contents/estrutura-projeto.md)
+37. [✨ Clean Code em JavaScript](contents/clean-code.md)
 
 ---
 
