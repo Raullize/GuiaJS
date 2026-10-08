@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🎯 Programação Orientada a Objetos em JavaScript
+# Programação Orientada a Objetos em JavaScript
 
 JavaScript é uma linguagem multi-paradigma que suporta programação orientada a objetos (POO), embora sua implementação tenha características únicas baseadas em protótipos, diferente das linguagens baseadas em classes tradicionais.
 
-## 🧩 Fundamentos da POO em JavaScript
+## Fundamentos da POO em JavaScript
 
 ### Objetos
 
@@ -50,7 +50,7 @@ const anônimo = Pessoa.criarPessoaAnônima();
 console.log(anônimo.nome); // "Anônimo"
 ```
 
-## 🌟 Pilares da POO em JavaScript
+## Pilares da POO em JavaScript
 
 ### 1. Encapsulamento
 
@@ -230,7 +230,7 @@ meuTelefone.ligar();
 meuTelefone.fazerLigacao("123456789");
 ```
 
-## 🔄 Herança Prototipal
+## Herança Prototipal
 
 JavaScript originalmente implementa herança através de protótipos, não classes.
 
@@ -264,7 +264,7 @@ const funcionario = new Funcionario("Carlos", "Desenvolvedor");
 console.log(funcionario.apresentar()); // "Olá, meu nome é Carlos. Sou Desenvolvedor."
 ```
 
-## 🧹 Garbage Collection
+## Garbage Collection
 
 JavaScript gerencia a memória automaticamente através do Garbage Collector, que libera a memória de objetos que não são mais referenciados.
 
@@ -278,6 +278,6 @@ objeto = null;
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

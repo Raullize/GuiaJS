@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# ✨ Clean Code em JavaScript
+# Clean Code em JavaScript
 
 Clean Code (Código Limpo) é um conjunto de práticas e princípios que visam tornar seu código mais legível, manutenível e menos propenso a erros. Estas práticas foram popularizadas por Robert C. Martin em seu livro "Clean Code" e adaptadas para diversas linguagens, incluindo JavaScript.
 
@@ -15,7 +15,7 @@ Um código bem escrito:
 
 ## Princípios Fundamentais
 
-### 1. 🔤 Nomenclatura Clara e Significativa
+### 1. Nomenclatura Clara e Significativa
 
 Os nomes de variáveis, funções e classes devem revelar claramente sua intenção e responsabilidade.
 
@@ -33,7 +33,7 @@ const currentDate = moment().format('YYYY/MM/DD');
 function saveDocument(document) { localStorage.setItem('document', document); }
 ```
 
-### 2. 🧩 Funções Pequenas e Focadas
+### 2. Funções Pequenas e Focadas
 
 Cada função deve ter uma única responsabilidade e fazer apenas uma coisa.
 
@@ -66,7 +66,7 @@ function isActiveClient(client) {
 }
 ```
 
-### 3. 🧪 Evite Efeitos Colaterais
+### 3. Evite Efeitos Colaterais
 
 Funções não devem modificar valores externos inesperadamente.
 
@@ -95,7 +95,7 @@ console.log(name); // 'Ryan McDermott'
 console.log(newName); // ['Ryan', 'McDermott']
 ```
 
-### 4. 🔍 DRY (Don't Repeat Yourself)
+### 4. DRY (Don't Repeat Yourself)
 
 Evite duplicação de código. Abstraia funcionalidades comuns em funções reutilizáveis.
 
@@ -155,7 +155,7 @@ function showEmployeeList(employees) {
 }
 ```
 
-### 5. 🧠 Prefira Programação Funcional
+### 5. Prefira Programação Funcional
 
 Métodos funcionais como `map`, `filter`, `reduce` são mais declarativos e legíveis do que loops imperativos.
 
@@ -188,7 +188,7 @@ const totalOutput = programmerOutput
   .reduce((total, lines) => total + lines, 0);
 ```
 
-### 6. 🛡️ Tratamento de Erros Adequado
+### 6. Tratamento de Erros Adequado
 
 Nunca ignore erros capturados. Trate-os apropriadamente.
 
@@ -212,7 +212,7 @@ try {
 }
 ```
 
-### 7. 📏 Princípios SOLID
+### 7. Princípios SOLID
 
 Os princípios SOLID são fundamentais para o design orientado a objetos:
 
@@ -527,10 +527,10 @@ Código limpo não é apenas sobre fazer o código funcionar, mas fazê-lo de um
 
 - [Clean Code JavaScript (GitHub)](https://github.com/ryanmcdermott/clean-code-javascript)
 - [Livro: Clean Code de Robert C. Martin](https://www.amazon.com.br/C%C3%B3digo-Limpo-Habilidades-Pr%C3%A1ticas-Software/dp/8576082675)
-- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript) 
+- [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

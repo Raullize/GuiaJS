@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 📦 ES Modules (ECMAScript Modules)
+# ES Modules (ECMAScript Modules)
 
 OS ES Modules são o sistema de módulos padrão do JavaScript moderno, introduzido no ES6 (ES2015). Eles permitem organizar código em arquivos separados e reutilizáveis.
 
-## 🎯 Conceitos Fundamentais
+## Conceitos Fundamentais
 
 ### O que são Módulos?
 
@@ -17,7 +17,7 @@ Módulos são arquivos JavaScript que exportam funcionalidades (funções, class
 - ✅ Carregamento assíncrono
 - ✅ Tree shaking (eliminação de código não utilizado)
 
-## 📤 Export (Exportação)
+## Export (Exportação)
 
 ### Named Exports (Exportações Nomeadas)
 
@@ -102,7 +102,7 @@ export default configuracaoPadrao;
 export { configuracaoPadrao as config };
 ```
 
-## 📥 Import (Importação)
+## Import (Importação)
 
 ### Importando Named Exports
 
@@ -168,7 +168,7 @@ console.log(API_URL); // 'https://api.exemplo.com'
 console.log(TIMEOUT); // 5000
 ```
 
-## 🔄 Re-exportação
+## Re-exportação
 
 Exportando funcionalidades de outros módulos:
 
@@ -182,7 +182,7 @@ export * from './constantes.js';
 export { API_URL as URL_API } from './config.js';
 ```
 
-## 🌐 Importação Dinâmica
+## Importação Dinâmica
 
 Carregamento de módulos em tempo de execução:
 
@@ -212,7 +212,7 @@ if (condicao) {
 }
 ```
 
-## 🏗️ Estrutura de Projeto com Módulos
+## Estrutura de Projeto com Módulos
 
 ```
 project/
@@ -313,7 +313,7 @@ async function iniciarApp() {
 iniciarApp();
 ```
 
-## ⚙️ Configuração para ES Modules
+## Configuração para ES Modules
 
 ### No Node.js
 
@@ -352,7 +352,7 @@ iniciarApp();
 </html>
 ```
 
-## 🔧 Boas Práticas
+## Boas Práticas
 
 ### 1. Organização de Arquivos
 
@@ -415,7 +415,7 @@ import { calc } from './utils.js';
 import { validate } from './helpers.js';
 ```
 
-## 📊 Comparação: ES Modules vs CommonJS
+## Comparação: ES Modules vs CommonJS
 
 | Característica | ES Modules | CommonJS |
 |---|---|---|
@@ -426,7 +426,7 @@ import { validate } from './helpers.js';
 | **Browser Nativo** | ✅ Sim | ❌ Não |
 | **Node.js** | ✅ Sim (v12+) | ✅ Padrão |
 
-## 🚀 Exemplo Prático: Sistema de Tarefas
+## Exemplo Prático: Sistema de Tarefas
 
 ```javascript
 // models/Task.js
@@ -520,6 +520,6 @@ taskService.getCompletedTasks().forEach(task => {
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

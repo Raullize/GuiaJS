@@ -1,16 +1,16 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🔀 Operadores Ternários
+# Operadores Ternários
 
 O operador ternário é uma forma concisa de escrever uma expressão condicional. É o único operador em JavaScript que aceita três operandos.
 
-## 📝 Sintaxe
+## Sintaxe
 
 ```js
 condição ? expressão_se_verdadeiro : expressão_se_falso
 ```
 
-## 📚 Exemplos Básicos
+## Exemplos Básicos
 
 ```js
 // Exemplo 1: Verificando idade
@@ -24,7 +24,7 @@ const parOuImpar = numero % 2 === 0 ? "Par" : "Ímpar";
 console.log(parOuImpar); // "Ímpar"
 ```
 
-## 🔧 Quando Usar Operadores Ternários
+## Quando Usar Operadores Ternários
 
 ### ✅ Recomendado:
 - Para atribuições simples baseadas em condições
@@ -59,7 +59,7 @@ const resultado = a > b
 // Melhor usar if/else para casos complexos
 ```
 
-## 🔄 Encadeamento de Operadores Ternários
+## Encadeamento de Operadores Ternários
 
 Em alguns casos, é possível encadear operadores ternários, mas use com moderação:
 
@@ -76,6 +76,6 @@ console.log(conceito); // 'B'
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

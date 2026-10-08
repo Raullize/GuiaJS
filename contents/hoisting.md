@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🔄 Hoisting em JavaScript
+# Hoisting em JavaScript
 
 ## O que é Hoisting?
 
@@ -120,7 +120,7 @@ funcs2[2](); // "Valor: 2"
    ```js
    function exemplo() {
      var a, b, c; // Todas as declarações no topo
-     
+  
      // resto do código...
      a = 5;
      b = 10;
@@ -139,6 +139,6 @@ funcs2[2](); // "Valor: 2"
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

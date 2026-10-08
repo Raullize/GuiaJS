@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 📝 Comentários 
+# Comentários
 
 Comentários ajudam a explicar partes do código e são ignorados pelo interpretador. Use:
 
@@ -26,6 +26,6 @@ multilinha
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🔄 Tipagem Dinâmica em JavaScript
+# Tipagem Dinâmica em JavaScript
 
 JavaScript é uma linguagem de **tipagem dinâmica**, o que significa que o tipo de uma variável é determinado automaticamente pelo valor que ela armazena e pode mudar durante a execução do programa.
 
-## 🧠 Compreendendo a Tipagem Dinâmica
+## Compreendendo a Tipagem Dinâmica
 
 Em linguagens de tipagem estática (como Java, C++ ou TypeScript), você precisa declarar o tipo de uma variável explicitamente, e esse tipo não pode mudar:
 
@@ -34,7 +34,7 @@ variavel = { nome: "valor" }; // agora variavel é objeto
 console.log(typeof variavel); // "object"
 ```
 
-## 🔄 Conversão Automática de Tipos
+## Conversão Automática de Tipos
 
 Devido à tipagem dinâmica, JavaScript realiza conversões automáticas (implícitas) de tipos em muitas operações.
 
@@ -67,7 +67,7 @@ console.log("" == 0);    // true (string vazia é convertida para 0)
 console.log("" === 0);   // false (tipos diferentes)
 ```
 
-## 🔄 Conversão Explícita de Tipos
+## Conversão Explícita de Tipos
 
 Para controlar melhor o comportamento do seu código, você pode realizar conversões explícitas de tipos:
 
@@ -97,7 +97,7 @@ let booleano = Boolean(valor); // true
 booleano = !!valor;            // true (dupla negação)
 ```
 
-## 📝 Valores Truthy e Falsy
+## Valores Truthy e Falsy
 
 Devido à conversão implícita para booleano, JavaScript tem o conceito de valores "truthy" e "falsy":
 
@@ -136,7 +136,7 @@ if (!"") {
 }
 ```
 
-## 🎯 Vantagens e Desvantagens da Tipagem Dinâmica
+## Vantagens e Desvantagens da Tipagem Dinâmica
 
 ### ✅ Vantagens:
 - **Flexibilidade**: código mais conciso e adaptável
@@ -148,7 +148,7 @@ if (!"") {
 - **Debugging mais difícil**: erros de tipo são detectados apenas em tempo de execução
 - **Performance**: pode ser menos eficiente que tipagem estática
 
-## 🔧 Melhores Práticas com Tipagem Dinâmica
+## Melhores Práticas com Tipagem Dinâmica
 
 1. **Use comparações estritas** (`===` e `!==`) para evitar conversões implícitas
 2. **Verifique tipos** explicitamente quando necessário (`typeof`, `instanceof`)
@@ -170,6 +170,6 @@ function calcular(a, b) {
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

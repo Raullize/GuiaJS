@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🔄 Rest/Spread Operator (...)
+# Rest/Spread Operator (...)
 
 O operador `...` (três pontos) é uma das funcionalidades mais versáteis do ES6+. Ele pode atuar como **Rest Operator** ou **Spread Operator**, dependendo do contexto de uso.
 
-## 🎯 Conceitos Fundamentais
+## Conceitos Fundamentais
 
 ### Rest Operator (Operador Rest)
 - **Coleta** múltiplos elementos em uma estrutura
@@ -16,7 +16,7 @@ O operador `...` (três pontos) é uma das funcionalidades mais versáteis do ES
 - Usado para **espalhar** arrays, objetos e strings
 - Sempre aparece do **lado direito** de uma atribuição
 
-## 📥 Rest Operator
+## Rest Operator
 
 ### Rest em Parâmetros de Função
 
@@ -100,7 +100,7 @@ console.log(usuarioSemSenha);
 // { id: 1, nome: 'Maria', email: 'maria@email.com' }
 ```
 
-## 📤 Spread Operator
+## Spread Operator
 
 ### Spread com Arrays
 
@@ -262,7 +262,7 @@ console.log(maior); // 12
 console.log(menor); // 3
 ```
 
-## 🔄 Combinando Rest e Spread
+## Combinando Rest e Spread
 
 ### Função que Remove Elementos
 
@@ -295,7 +295,7 @@ const resultado = mesclarObjetos(base, obj1, obj2, obj3);
 console.log(resultado); // { a: 10, b: 2, c: 3, d: 4, e: 5, f: 6 }
 ```
 
-## 🎨 Casos de Uso Práticos
+## Casos de Uso Práticos
 
 ### 1. Sistema de Logging
 
@@ -538,7 +538,7 @@ function exemplo(primeiro, segundo, ...rest) {
 }
 ```
 
-## 🏆 Boas Práticas
+## Boas Práticas
 
 ### 1. Use Nomes Descritivos para Rest Parameters
 
@@ -581,6 +581,6 @@ const processarDados = ({ id, nome, ...outrosDados }) => {
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

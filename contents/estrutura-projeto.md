@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🏗️ Estruturação de Projetos JavaScript
+# Estruturação de Projetos JavaScript
 
 Um guia completo para estruturar seus projetos JavaScript de forma profissional e escalável.
 
-## 📦 Gerenciamento de Pacotes
+## Gerenciamento de Pacotes
 
 O gerenciamento de pacotes é fundamental para qualquer projeto JavaScript moderno. O `package.json` serve como um manifesto do seu projeto, contendo todas as informações necessárias para sua configuração e execução.
 
@@ -56,7 +56,7 @@ Exemplo: `^4.18.2` significa:
 - 2: Versão patch
 - ^: Permite atualizações de minor e patch
 
-## 🔍 Linting e Formatação
+## Linting e Formatação
 
 A consistência do código é vital para a manutenibilidade e legibilidade. Linting e formatação automatizada ajudam a manter padrões de código consistentes em toda a equipe.
 
@@ -102,7 +102,7 @@ O Prettier complementa o ESLint focando na formatação do código:
 - Integração com editores
 - Configuração mínima
 
-## 🔗 Git Hooks
+## Git Hooks
 
 Git Hooks são scripts que automatizam tarefas durante o ciclo de vida do Git. Eles são cruciais para garantir a qualidade do código antes de ser commitado.
 
@@ -136,7 +136,7 @@ npm install -D husky lint-staged
 }
 ```
 
-## 🔒 Variáveis de Ambiente
+## Variáveis de Ambiente
 
 As variáveis de ambiente são fundamentais para a configuração segura e flexível de aplicações.
 
@@ -164,7 +164,7 @@ require('dotenv').config();
 const port = process.env.PORT;
 ```
 
-## 🏛️ Arquitetura Limpa
+## Arquitetura Limpa
 
 A Clean Architecture promove a separação de responsabilidades e a independência entre camadas.
 
@@ -197,7 +197,7 @@ src/
 └── main/          # Configuração e inicialização
 ```
 
-## 📝 Documentação
+## Documentação
 
 Documentação clara e atualizada é crucial para a manutenibilidade do projeto.
 
@@ -238,7 +238,7 @@ class User {
 }
 ```
 
-## 🐳 Docker
+## Docker
 
 Docker permite empacotar aplicações com todas as suas dependências em containers isolados.
 
@@ -277,7 +277,7 @@ RUN npm install --production
 CMD ["npm", "start"]
 ```
 
-## 🌱 Seeds e Migrations
+## Seeds e Migrations
 
 Seeds e migrations são essenciais para manter a consistência do banco de dados entre ambientes.
 
@@ -315,8 +315,8 @@ async function seedUsers() {
 
 ---
 
-> 💡 **Dica**: Mantenha sua estrutura de projeto organizada desde o início. Isso facilitará a manutenção e escalabilidade do seu código.
+> **Dica**: Mantenha sua estrutura de projeto organizada desde o início. Isso facilitará a manutenção e escalabilidade do seu código.
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

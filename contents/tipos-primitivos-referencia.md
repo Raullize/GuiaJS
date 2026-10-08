@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🧩 Tipos Primitivos vs Tipos de Referência
+# Tipos Primitivos vs Tipos de Referência
 
 O JavaScript tem dois grandes grupos de tipos de dados: **primitivos** e **referência**. Entender a diferença entre eles é crucial para evitar bugs sutis em seu código.
 
-## 📊 Tipos Primitivos
+## Tipos Primitivos
 
 São valores imutáveis e armazenados diretamente na posição de memória que a variável acessa.
 
@@ -29,7 +29,7 @@ const simbolo = Symbol("descrição");
 const numeroGrande = 9007199254740991n; // BigInt
 ```
 
-## 🧬 Tipos de Referência
+## Tipos de Referência
 
 São objetos armazenados por referência. Variáveis destes tipos não contêm diretamente o valor, mas uma referência (ponteiro) para o local na memória onde o objeto está armazenado.
 
@@ -51,7 +51,7 @@ const hoje = new Date();
 const regex = /\d+/g;
 ```
 
-## 🔄 Comportamento na Atribuição e Comparação
+## Comportamento na Atribuição e Comparação
 
 ### Primitivos: Cópia por Valor
 
@@ -92,6 +92,6 @@ console.log(obj === obj);       // true (mesma referência)
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

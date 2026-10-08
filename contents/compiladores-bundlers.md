@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🛠️ Compiladores e Bundlers JavaScript
+# Compiladores e Bundlers JavaScript
 
 Compiladores e bundlers são ferramentas essenciais no desenvolvimento JavaScript moderno, permitindo usar recursos avançados da linguagem, otimizar código e gerenciar dependências.
 
-## 🎯 Conceitos Fundamentais
+## Conceitos Fundamentais
 
 ### O que são Compiladores?
 
@@ -22,7 +22,7 @@ Compiladores e bundlers são ferramentas essenciais no desenvolvimento JavaScrip
 - ✅ **Desenvolvimento**: Hot reload, source maps, debugging
 - ✅ **Performance**: Carregamento otimizado de recursos
 
-## 🔧 Principais Compiladores
+## Principais Compiladores
 
 ### Babel
 
@@ -151,7 +151,7 @@ Compilador oficial do TypeScript que também pode processar JavaScript.
 }
 ```
 
-## 📦 Principais Bundlers
+## Principais Bundlers
 
 ### Webpack
 
@@ -443,7 +443,7 @@ npx parcel build src/index.html
 }
 ```
 
-## ⚡ Ferramentas Modernas
+## Ferramentas Modernas
 
 ### esbuild
 
@@ -502,7 +502,7 @@ Compilador JavaScript/TypeScript extremamente rápido escrito em Rust.
 }
 ```
 
-## 🎨 Casos de Uso Práticos
+## Casos de Uso Práticos
 
 ### 1. Projeto React com Webpack
 
@@ -727,7 +727,7 @@ module.exports = merge(common, {
 });
 ```
 
-## 📊 Comparação de Ferramentas
+## Comparação de Ferramentas
 
 | Ferramenta | Velocidade | Configuração | Ecossistema | Melhor Para |
 |------------|------------|--------------|-------------|-------------|
@@ -737,7 +737,7 @@ module.exports = merge(common, {
 | **Parcel** | Rápida | Zero | Limitado | Projetos simples, iniciantes |
 | **esbuild** | Extremamente Rápida | Simples | Limitado | Build rápido, ferramentas |
 
-## 🏆 Boas Práticas
+## Boas Práticas
 
 ### 1. Configuração por Ambiente
 
@@ -812,6 +812,6 @@ npm run build -- --analyze
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

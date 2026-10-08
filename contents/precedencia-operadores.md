@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 📊 Precedência de Operadores
+# Precedência de Operadores
 
 A precedência de operadores em JavaScript determina a ordem na qual as operações são processadas em uma expressão.
 
-## 📋 Tabela de Precedência
+## Tabela de Precedência
 
 Os operadores abaixo estão listados em ordem decrescente de precedência (dos mais prioritários para os menos prioritários):
 
@@ -31,7 +31,7 @@ Os operadores abaixo estão listados em ordem decrescente de precedência (dos m
 | 19 | Atribuição | `=`, `+=`, `-=`, `*=`, etc. |
 | 20 | Vírgula | `,` |
 
-## 📚 Exemplos Práticos
+## Exemplos Práticos
 
 ### Expressões Matemáticas
 
@@ -88,7 +88,7 @@ console.log(z);  // 16 (x é incrementado primeiro)
 console.log(x);  // 6
 ```
 
-## 🔧 Dicas para Evitar Problemas de Precedência
+## Dicas para Evitar Problemas de Precedência
 
 1. **Use parênteses** para deixar claro a ordem desejada de operações
 2. **Divida expressões complexas** em expressões menores e mais simples
@@ -108,11 +108,11 @@ let parte2 = c && d;
 let resultadoMuitoClaro = parte1 || parte2;
 ```
 
-## 🔗 Optional Chaining (?.) - Detalhado
+## Optional Chaining (?.) - Detalhado
 
 O Optional Chaining é um operador introduzido no ES2020 que permite acessar propriedades aninhadas de objetos sem gerar erros se alguma propriedade intermediária for `null` ou `undefined`.
 
-### 🎯 Sintaxe Básica
+### Sintaxe Básica
 
 ```javascript
 // Sintaxe tradicional (pode gerar erro)
@@ -122,7 +122,7 @@ const nome = usuario.perfil.nome;
 const nome = usuario?.perfil?.nome;
 ```
 
-### 📋 Casos de Uso
+### Casos de Uso
 
 #### 1. Acesso a Propriedades de Objetos
 
@@ -198,7 +198,7 @@ const config = null;
 console.log(config?.servidores?.[0]?.url); // undefined
 ```
 
-### 🔄 Comparação: Antes vs Depois
+### Comparação: Antes vs Depois
 
 #### Antes do Optional Chaining
 
@@ -236,7 +236,7 @@ function obterLatitude(usuario) {
 }
 ```
 
-### 🎨 Exemplos Práticos
+### Exemplos Práticos
 
 #### 1. Processamento de Dados de API
 
@@ -423,7 +423,7 @@ const d = c?.d;
 // etc...
 ```
 
-### 🏆 Boas Práticas
+### Boas Práticas
 
 #### 1. Combine com Nullish Coalescing (??)
 
@@ -477,6 +477,6 @@ function processarUsuario(usuario) {
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

@@ -1,14 +1,14 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🚀 Node.js
+# Node.js
 
-## 🤔 O que é Node.js?
+## O que é Node.js?
 
 **Node.js** é um ambiente de execução para JavaScript fora do navegador, construído no motor **V8** do Google Chrome. Ele permite que você execute código JavaScript no lado do servidor, tornando-o ideal para criar aplicações escaláveis e de alta performance.
 
 ---
 
-## 🛠️ Para que serve o Node.js?
+## Para que serve o Node.js?
 
 O Node.js é amplamente utilizado para:
 
@@ -19,7 +19,7 @@ O Node.js é amplamente utilizado para:
 
 ---
 
-## 📥 Como instalar o Node.js?
+## Como instalar o Node.js?
 
 Para instalar o Node.js, siga os passos abaixo:
 
@@ -38,7 +38,7 @@ Isso exibirá as versões instaladas do Node.js e do npm.
 
 ---
 
-## 🚀 Primeiros passos com Node.js
+## Primeiros passos com Node.js
 
 ### Criando um servidor simples
 
@@ -66,7 +66,7 @@ server.listen(3000, () => {
 
 ---
 
-## 📦 Gerenciando pacotes com npm
+## Gerenciando pacotes com npm
 
 O **npm** é o gerenciador de pacotes do Node.js e permite instalar bibliotecas e frameworks de terceiros. Aqui estão alguns comandos úteis:
 
@@ -92,7 +92,7 @@ O **npm** é o gerenciador de pacotes do Node.js e permite instalar bibliotecas 
 
 ---
 
-## 🌟 Frameworks populares no ecossistema Node.js
+## Frameworks populares no ecossistema Node.js
 
 - **Express.js**: Um framework minimalista para criar servidores e APIs.
 - **NestJS**: Um framework robusto e escalável, inspirado no Angular.
@@ -101,7 +101,7 @@ O **npm** é o gerenciador de pacotes do Node.js e permite instalar bibliotecas 
 
 ---
 
-## 🖼️ Logo do Node.js
+## Logo do Node.js
 
 Aqui está a logo oficial do Node.js:
 
@@ -109,6 +109,6 @@ Aqui está a logo oficial do Node.js:
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

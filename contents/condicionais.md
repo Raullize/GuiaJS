@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🔀 Estruturas Condicionais 
+# Estruturas Condicionais
 
 ## **`if` e `else`**
 A estrutura condicional `if` avalia uma condição e executa um bloco de código se ela for verdadeira. O `else` é opcional e é executado quando a condição é falsa.
@@ -39,6 +39,6 @@ switch (cor) {
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

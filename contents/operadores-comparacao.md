@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🔍 Operadores de Comparação
+# Operadores de Comparação
 
 Os operadores de comparação em JavaScript são utilizados para comparar valores e retornar um valor booleano (`true` ou `false`).
 
-## 📋 Operadores Básicos
+## Operadores Básicos
 
 | Operador | Nome | Descrição | Exemplo |
 |----------|------|-----------|---------|
@@ -17,7 +17,7 @@ Os operadores de comparação em JavaScript são utilizados para comparar valore
 | `>=` | Maior ou igual | Verifica se o valor da esquerda é maior ou igual ao da direita | `10 >= 10` → `true` |
 | `<=` | Menor ou igual | Verifica se o valor da esquerda é menor ou igual ao da direita | `5 <= 10` → `true` |
 
-## 🎯 Igualdade vs. Igualdade Estrita
+## Igualdade vs. Igualdade Estrita
 
 ### Operador de Igualdade (`==`)
 
@@ -43,7 +43,7 @@ console.log(1 === true);  // false (tipos diferentes: number vs boolean)
 console.log(null === undefined); // false (tipos diferentes)
 ```
 
-## 📊 Comparação de Objetos
+## Comparação de Objetos
 
 Operadores de comparação comparam referências, não conteúdo, quando usados com objetos.
 
@@ -58,7 +58,7 @@ console.log(obj1 == obj3);  // true (mesma referência)
 console.log(obj1 === obj3); // true (mesma referência)
 ```
 
-## 🔢 Comparações Especiais
+## Comparações Especiais
 
 ### NaN
 
@@ -83,7 +83,7 @@ console.log(null == 0);  // false
 console.log(undefined == 0); // false
 ```
 
-## 🔗 Operadores de Comparação em Condicionais
+## Operadores de Comparação em Condicionais
 
 Esses operadores são frequentemente usados em estruturas condicionais:
 
@@ -101,7 +101,7 @@ const status = idade >= 18 ? "Maior de idade" : "Menor de idade";
 console.log(status);
 ```
 
-## 🧪 Comparações com Booleanos
+## Comparações com Booleanos
 
 ```js
 // Evite estas comparações
@@ -113,7 +113,7 @@ if (isValid) { ... }         // mais conciso
 if (!isValid) { ... }        // mais conciso
 ```
 
-## 🌟 Melhores Práticas
+## Melhores Práticas
 
 1. **Use `===` (igualdade estrita) por padrão** para evitar conversões de tipo inesperadas
 2. **Entenda as regras de conversão de tipo** quando precisar usar `==`
@@ -140,6 +140,6 @@ if (valor === null || valor === undefined) {
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

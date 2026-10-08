@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 📊 Tipos de Dados
+# Tipos de Dados
 
 JavaScript possui diversos tipos de dados que podem ser divididos em duas categorias principais: **Primitivos** e **Referência**.
 
@@ -41,6 +41,6 @@ Para uma explicação mais detalhada sobre as diferenças entre tipos primitivos
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

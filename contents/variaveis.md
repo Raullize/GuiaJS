@@ -1,8 +1,8 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🔢 Variáveis: `var`, `let`, `const`
+# Variáveis: `var`, `let`, `const`
 
-| Tipo  | Escopo | Mutável? | Boas Práticas |
+| Tipo | Escopo | Mutável? | Boas Práticas |
 |-------|--------|----------|--------------|
 | `var` | Global/Função | Sim | Evitar o uso |
 | `let` | Bloco | Sim | Usar para variáveis mutáveis |
@@ -23,10 +23,10 @@ let PessoaClasse = {};        // PascalCase (comum para classes)
 let primeiro_nome = "João";   // snake_case (menos comum em JS)
 ```
 
-> 📝 **Importante**: As variáveis em JavaScript são afetadas pelo conceito de "hoisting", o que influencia como e quando elas podem ser usadas. Para entender esse comportamento, consulte o [guia sobre hoisting](hoisting.md).
+> **Importante**: As variáveis em JavaScript são afetadas pelo conceito de "hoisting", o que influencia como e quando elas podem ser usadas. Para entender esse comportamento, consulte o [guia sobre hoisting](hoisting.md).
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

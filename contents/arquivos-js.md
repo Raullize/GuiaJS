@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 📄 Como criar e usar um arquivo JavaScript 
+# Como criar e usar um arquivo JavaScript
 
 Para adicionar um arquivo JavaScript ao seu projeto, siga estes passos:
 
@@ -24,12 +24,12 @@ Exemplo básico:
 </html>
 ```
 
-## Sobre o atributo `defer` ⏳
+## Sobre o atributo `defer`
 - O atributo `defer` garante que o arquivo JavaScript será carregado em segundo plano e executado apenas após o carregamento completo do HTML.
 - Isso melhora o desempenho da página e evita problemas de acesso a elementos DOM que ainda não foram renderizados.
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

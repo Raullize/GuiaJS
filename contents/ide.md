@@ -1,8 +1,8 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 💻 Escolhendo uma IDE
+# Escolhendo uma IDE
 
-## 🤔 O que é uma IDE?
+## O que é uma IDE?
 
 Uma **IDE** (Integrated Development Environment) é um ambiente de desenvolvimento que facilita a escrita, depuração e execução de código. Ela combina ferramentas essenciais como editor de texto, depurador, terminal e suporte a versionamento em uma única interface, aumentando a produtividade do desenvolvedor.
 
@@ -10,7 +10,7 @@ Cada desenvolvedor pode escolher a IDE que melhor se adapta ao seu fluxo de trab
 
 ---
 
-## 🛠️ IDEs Populares para JavaScript
+## IDEs Populares para JavaScript
 
 Aqui estão algumas das IDEs mais utilizadas para desenvolvimento em JavaScript:
 
@@ -57,7 +57,7 @@ Aqui estão algumas das IDEs mais utilizadas para desenvolvimento em JavaScript:
 
 ---
 
-## 🧐 Como escolher a IDE certa?
+## Como escolher a IDE certa?
 
 Ao escolher uma IDE, considere os seguintes fatores:
 
@@ -69,7 +69,7 @@ Ao escolher uma IDE, considere os seguintes fatores:
 
 ---
 
-## 🚀 Dicas para começar
+## Dicas para começar
 
 - Experimente várias IDEs antes de decidir qual usar.
 - Personalize sua IDE com temas e extensões que facilitem seu fluxo de trabalho.
@@ -77,6 +77,6 @@ Ao escolher uma IDE, considere os seguintes fatores:
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

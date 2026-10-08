@@ -44,6 +44,6 @@ Para uma compreensão completa de cada tipo de operador, consulte os seguintes g
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

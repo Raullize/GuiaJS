@@ -1,8 +1,8 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 📝 Manipulação de Strings
+# Manipulação de Strings
 
-## 🔗 Concatenação de Strings
+## Concatenação de Strings
 
 Em JavaScript, existem várias formas de concatenar (unir) strings:
 
@@ -32,7 +32,7 @@ const saudacao = parte1.concat(", ", parte2, "!");
 console.log(saudacao); // "Olá, mundo!"
 ```
 
-## 🔮 Template Literals (ES6+)
+## Template Literals (ES6+)
 
 Os template literals, introduzidos no ES6, proporcionam uma maneira mais elegante de concatenar strings e variáveis:
 
@@ -78,7 +78,7 @@ And so are you!
 */
 ```
 
-## 🚀 Vantagens dos Template Literals
+## Vantagens dos Template Literals
 
 - Código mais legível
 - Facilidade para incluir variáveis e expressões
@@ -87,6 +87,6 @@ And so are you!
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

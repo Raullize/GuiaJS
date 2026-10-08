@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🔢 Métodos de Arrays
+# Métodos de Arrays
 
 Os arrays em JavaScript possuem diversos métodos poderosos que facilitam a manipulação de dados. Vamos explorar os mais importantes:
 
-## 🔍 Localizando Elementos
+## Localizando Elementos
 
 ### Para Arrays de Tipos Primitivos
 
@@ -81,7 +81,7 @@ console.log(removidos); // ['c']
 console.log(letras); // ['b', 'd']
 ```
 
-## 🧹 Esvaziando um Array
+## Esvaziando um Array
 
 ```js
 let numeros = [1, 2, 3, 4, 5];
@@ -100,7 +100,7 @@ numeros.splice(0, numeros.length);
 console.log(numeros); // []
 ```
 
-## 🔄 Transformando Arrays
+## Transformando Arrays
 
 ```js
 const numeros = [1, 2, 3, 4, 5];
@@ -123,7 +123,7 @@ nums.sort((a, b) => a - b); // ordem crescente
 console.log(nums); // [1, 2, 5, 10, 25]
 ```
 
-## 🧮 Iteração e Transformação
+## Iteração e Transformação
 
 ```js
 const numeros = [1, 2, 3, 4, 5];
@@ -152,7 +152,7 @@ const algumMaiorQueDez = numeros.some(num => num > 10);
 console.log(algumMaiorQueDez); // false
 ```
 
-## 🚀 Métodos Modernos (ES6+)
+## Métodos Modernos (ES6+)
 
 ```js
 // flat - "achata" arrays aninhados
@@ -176,6 +176,6 @@ console.log(novo); // [1, 2, 3]
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

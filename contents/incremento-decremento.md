@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🔄 Incremento e Decremento
+# Incremento e Decremento
 
 Os operadores de incremento (`++`) e decremento (`--`) são formas concisas de adicionar ou subtrair 1 de uma variável.
 
-## 📥 Pré-incremento vs Pós-incremento
+## Pré-incremento vs Pós-incremento
 
 ### Pré-incremento (`++variavel`)
 O valor é incrementado **antes** de ser utilizado na expressão.
@@ -28,7 +28,7 @@ console.log(contador);  // 6
 console.log(resultado); // 5
 ```
 
-## 📉 Pré-decremento vs Pós-decremento
+## Pré-decremento vs Pós-decremento
 
 ### Pré-decremento (`--variavel`)
 O valor é decrementado **antes** de ser utilizado na expressão.
@@ -52,7 +52,7 @@ console.log(contador);  // 4
 console.log(resultado); // 5
 ```
 
-## 🛠️ Aplicações Práticas
+## Aplicações Práticas
 
 Estes operadores são frequentemente utilizados em loops e contadores:
 
@@ -71,6 +71,6 @@ function registrarClique() {
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

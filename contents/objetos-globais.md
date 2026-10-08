@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🌐 Objetos Globais em JavaScript
+# Objetos Globais em JavaScript
 
 Os Objetos Globais em JavaScript estão sempre disponíveis em qualquer contexto, sem a necessidade de importação. Eles fornecem funcionalidades essenciais e úteis que podem ser utilizadas em diferentes partes do seu código.
 
-## 🧮 Math
+## Math
 
 O objeto `Math` fornece métodos e propriedades para operações matemáticas avançadas.
 
@@ -34,7 +34,7 @@ const aleatorio = Math.floor(Math.random() * 100) + 1;
 console.log(aleatorio);
 ```
 
-## 📅 Date
+## Date
 
 O objeto `Date` permite trabalhar com datas e horários, essencial para aplicações que envolvem agendamentos, cálculos de tempo ou exibição de datas.
 
@@ -65,7 +65,7 @@ const diferencaEmDias = Math.floor(diferencaEmMs / (1000 * 60 * 60 * 24));
 console.log(`Diferença: ${diferencaEmDias} dias`); // 364 dias
 ```
 
-## 📋 JSON
+## JSON
 
 O objeto `JSON` (JavaScript Object Notation) é fundamental para a comunicação com APIs e armazenamento de dados estruturados.
 
@@ -90,7 +90,7 @@ console.log(objetoUsuario.habilidades[0]); // JavaScript
 console.log(JSON.stringify(usuario, null, 2));
 ```
 
-## 🌐 Global Functions
+## Global Functions
 
 JavaScript fornece funções globais que podem ser chamadas diretamente:
 
@@ -121,7 +121,7 @@ const intervalo = setInterval(() => {
 }, 1000);
 ```
 
-## 📐 Array
+## Array
 
 O objeto global `Array` fornece métodos estáticos e protótipos para manipular arrays:
 
@@ -150,7 +150,7 @@ const soma = [1, 2, 3, 4].reduce((acc, n) => acc + n, 0);
 console.log(soma); // 10
 ```
 
-## 🔤 String
+## String
 
 O objeto global `String` fornece métodos para manipulação de texto:
 
@@ -177,7 +177,7 @@ const textoComEspacos = "  texto com espaços  ";
 console.log(textoComEspacos.trim());  // "texto com espaços"
 ```
 
-## 🔢 Number
+## Number
 
 O objeto `Number` fornece métodos para trabalhar com valores numéricos:
 
@@ -201,7 +201,7 @@ console.log(preco.toLocaleString('pt-BR', {
 })); // "R$ 1.234,56"
 ```
 
-## 📝 Promise
+## Promise
 
 O objeto global `Promise` é essencial para programação assíncrona:
 
@@ -242,7 +242,7 @@ buscarDados(123)
   .catch(erro => console.error(`Erro: ${erro}`));
 ```
 
-## 🔍 RegExp
+## RegExp
 
 O objeto `RegExp` permite trabalhar com expressões regulares para busca e manipulação de padrões em strings:
 
@@ -267,8 +267,8 @@ console.log(resultado); // "Contatos: (11) 987654321 e (21) 123456789"
 
 ---
 
-> 💡 **Dica**: Os objetos globais tornam o JavaScript uma linguagem poderosa para diversas tarefas, desde manipulação de dados até operações assíncronas. Familiarize-se com estes objetos para escrever código mais eficiente e expressivo.
+> **Dica**: Os objetos globais tornam o JavaScript uma linguagem poderosa para diversas tarefas, desde manipulação de dados até operações assíncronas. Familiarize-se com estes objetos para escrever código mais eficiente e expressivo.
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

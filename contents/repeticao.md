@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# ♻️ Estruturas de Repetição 
+# Estruturas de Repetição
 
 ## **`while`**
 Executa um bloco de código enquanto a condição for verdadeira.
@@ -45,6 +45,6 @@ for (let i = 0; i < 5; i++) {
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

@@ -11,6 +11,6 @@ O uso de ponto e vírgula (`;`) pode evitar falhas na interpretação do código
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

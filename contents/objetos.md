@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🔧 Objetos em JavaScript
+# Objetos em JavaScript
 
 Objetos são coleções de pares chave-valor e uma das estruturas de dados mais importantes em JavaScript.
 
-## 📋 Criação de Objetos
+## Criação de Objetos
 
 ### Sintaxe Literal
 
@@ -30,7 +30,7 @@ pessoa.idade = 30;
 pessoa.cidade = "Rio de Janeiro";
 ```
 
-## 🎯 Short Syntax (Sintaxe Abreviada)
+## Short Syntax (Sintaxe Abreviada)
 
 O ES6 introduziu várias formas de simplificar a criação de objetos:
 
@@ -104,7 +104,7 @@ const objeto = {
 console.log(objeto); // { cor: "azul", corSecundaria: "verde" }
 ```
 
-## 🎁 Desestruturação de Objetos
+## Desestruturação de Objetos
 
 A desestruturação permite extrair propriedades de objetos de forma concisa:
 
@@ -204,7 +204,7 @@ console.log(criarPerfil(usuario));
 // "Laura, 27 anos, laura@email.com, mora em Não informado"
 ```
 
-## 🔄 Rest em Desestruturação
+## Rest em Desestruturação
 
 ```javascript
 const dados = {
@@ -225,7 +225,7 @@ console.log(outrasPropriedades);
 // { preco: 99.99, categoria: "Eletrônicos", descricao: "Um ótimo produto", disponivel: true }
 ```
 
-## 🛠️ Métodos Úteis para Objetos
+## Métodos Úteis para Objetos
 
 ### Object.keys(), Object.values(), Object.entries()
 
@@ -262,7 +262,7 @@ const combinado2 = { ...base, ...extensao };
 console.log(combinado2); // { a: 1, b: 2, c: 3, d: 4 }
 ```
 
-## 📌 Exemplos Práticos
+## Exemplos Práticos
 
 ### Sistema de Usuário
 
@@ -336,6 +336,6 @@ console.log(config);
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🔢 Arrays e Arrays Bidimensionais 
+# Arrays e Arrays Bidimensionais
 
 ## Arrays
 Um array é uma lista ordenada de elementos que pode armazenar valores de qualquer tipo de dados. Em JavaScript, os arrays são objetos dinâmicos, ou seja, podem crescer ou diminuir de tamanho.
@@ -70,6 +70,6 @@ for (let i = 0; i < matriz.length; i++) {
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

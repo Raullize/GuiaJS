@@ -1,11 +1,11 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🌐 Client Side vs Server Side
+# Client Side vs Server Side
 
-## 💻 JavaScript no Cliente (Client Side)
+## JavaScript no Cliente (Client Side)
 O JavaScript foi inicialmente criado para ser executado no lado do cliente (navegador). Neste contexto, ele:
 
-### 🎯 Principais Funcionalidades:
+### Principais Funcionalidades:
 - **Manipulação do DOM**: Altera elementos HTML dinamicamente
 - **Interatividade**: Responde a cliques, teclas e outros eventos do usuário
 - **Validação de formulários**: Verifica dados antes do envio
@@ -14,7 +14,7 @@ O JavaScript foi inicialmente criado para ser executado no lado do cliente (nave
 - **Armazenamento local**: Utiliza localStorage, sessionStorage e cookies
 - **Manipulação de mídia**: Controla áudio, vídeo e canvas
 
-### 📝 Exemplo Prático:
+### Exemplo Prático:
 ```js
 // Exemplo de JS no lado do cliente
 const botao = document.getElementById("meuBotao");
@@ -37,19 +37,19 @@ botao.addEventListener("click", function() {
 });
 ```
 
-## 🖥️ JavaScript no Servidor (Server Side)
+## JavaScript no Servidor (Server Side)
 
-### 🚀 O que é Node.js?
+### O que é Node.js?
 **Node.js** é um ambiente de execução JavaScript construído no motor **V8** do Google Chrome, que permite executar JavaScript fora do navegador. Criado por Ryan Dahl em 2009, revolucionou o desenvolvimento web ao permitir que desenvolvedores usassem JavaScript tanto no frontend quanto no backend.
 
-### 🔧 Características do Node.js:
+### Características do Node.js:
 - **Event-driven**: Baseado em eventos e callbacks
 - **Non-blocking I/O**: Operações assíncronas por padrão
 - **Single-threaded**: Usa um único thread principal com event loop
 - **Cross-platform**: Funciona em Windows, macOS e Linux
 - **NPM**: Maior repositório de pacotes do mundo
 
-### 🎯 Principais Funcionalidades no Servidor:
+### Principais Funcionalidades no Servidor:
 - **Manipulação de arquivos**: Lê, escreve e gerencia arquivos do sistema
 - **Conexão com bancos de dados**: MySQL, MongoDB, PostgreSQL, etc.
 - **Processamento de requisições HTTP**: Cria servidores web e APIs
@@ -58,7 +58,7 @@ botao.addEventListener("click", function() {
 - **Integração com serviços externos**: APIs de terceiros, microserviços
 - **Tarefas em background**: Jobs, cron jobs e processamento assíncrono
 
-### 📝 Exemplo Prático:
+### Exemplo Prático:
 ```js
 // Exemplo de JS no lado do servidor (Node.js)
 const express = require('express');
@@ -104,7 +104,7 @@ app.listen(3000, () => {
 });
 ```
 
-## 🧐 Principais Diferenças
+## Principais Diferenças
 
 | Característica | Client Side | Server Side |
 |----------------|-------------|-------------|
@@ -117,25 +117,25 @@ app.listen(3000, () => {
 | **Processamento** | Limitado para não travar a interface | Pode executar operações pesadas |
 | **Debugging** | DevTools do navegador | Ferramentas de servidor (logs, profilers) |
 
-## 🎯 Casos de Uso Específicos
+## Casos de Uso Específicos
 
-### 💻 Client Side é Ideal Para:
+### Client Side é Ideal Para:
 - **Interfaces interativas**: Formulários dinâmicos, validações em tempo real
 - **Jogos simples**: Jogos 2D, puzzles, jogos casuais
 - **Visualizações**: Gráficos, dashboards, mapas interativos
 - **PWAs**: Progressive Web Apps com funcionalidades offline
 - **Single Page Applications (SPAs)**: React, Vue, Angular
 
-### 🖥️ Server Side é Ideal Para:
+### Server Side é Ideal Para:
 - **APIs RESTful/GraphQL**: Endpoints para comunicação com frontend
 - **Autenticação**: Login, registro, gerenciamento de sessões
 - **Processamento de dados**: Análises, relatórios, transformações
 - **Integração com serviços**: Pagamentos, e-mail, notificações
 - **Microserviços**: Arquiteturas distribuídas e escaláveis
 
-## ⚖️ Vantagens e Desvantagens
+## Vantagens e Desvantagens
 
-### 💻 Client Side
+### Client Side
 
 **✅ Vantagens:**
 - Resposta imediata às interações do usuário
@@ -149,7 +149,7 @@ app.listen(3000, () => {
 - Dependente da compatibilidade do navegador
 - Não pode acessar recursos do sistema
 
-### 🖥️ Server Side
+### Server Side
 
 **✅ Vantagens:**
 - Código seguro e protegido
@@ -163,9 +163,9 @@ app.listen(3000, () => {
 - Requer infraestrutura robusta
 - Dependente de conexão com internet
 
-## 🏗️ Arquiteturas Modernas
+## Arquiteturas Modernas
 
-### 🔄 Full Stack JavaScript
+### Full Stack JavaScript
 Com Node.js, é possível usar JavaScript em toda a stack:
 
 ```js
@@ -180,13 +180,13 @@ app.get('/api/users', async (req, res) => {
 });
 ```
 
-### 🌐 JAMstack (JavaScript, APIs, Markup)
+### JAMstack (JavaScript, APIs, Markup)
 Arquitetura moderna que combina:
 - **JavaScript**: Para funcionalidades dinâmicas
 - **APIs**: Para dados e serviços
 - **Markup**: HTML pré-construído
 
-### ⚡ Server-Side Rendering (SSR)
+### Server-Side Rendering (SSR)
 Frameworks como Next.js combinam client e server:
 
 ```js
@@ -202,16 +202,16 @@ function Page({ data }) {
 }
 ```
 
-## 🛠️ Ferramentas e Ecossistema
+## Ferramentas e Ecossistema
 
-### 💻 Client Side
+### Client Side
 - **Frameworks**: React, Vue.js, Angular, Svelte
 - **Build Tools**: Webpack, Vite, Parcel, Rollup
 - **Testing**: Jest, Cypress, Playwright, Testing Library
 - **Package Managers**: npm, yarn, pnpm
 - **Debugging**: Chrome DevTools, React DevTools, Vue DevTools
 
-### 🖥️ Server Side
+### Server Side
 - **Frameworks**: Express.js, Fastify, Koa.js, NestJS
 - **Databases**: MongoDB, PostgreSQL, MySQL, Redis
 - **ORMs**: Mongoose, Prisma, Sequelize, TypeORM
@@ -219,22 +219,22 @@ function Page({ data }) {
 - **Deployment**: Docker, PM2, Nginx, AWS, Vercel
 - **Monitoring**: Winston, Morgan, New Relic, DataDog
 
-## 🎓 Resumo e Boas Práticas
+## Resumo e Boas Práticas
 
-### 🔑 Pontos-Chave:
+### Pontos-Chave:
 1. **Client Side** foca na experiência do usuário e interatividade
 2. **Server Side** gerencia dados, segurança e lógica de negócio
 3. **Node.js** revolucionou o desenvolvimento ao unificar a linguagem
 4. **Arquiteturas modernas** combinam o melhor dos dois mundos
 
-### 💡 Dicas para Desenvolvedores:
+### Dicas para Desenvolvedores:
 - **Separe responsabilidades**: UI no client, lógica de negócio no server
 - **Valide dados**: No client para UX, no server para segurança
 - **Otimize performance**: Cache no client, processamento eficiente no server
 - **Pense em escalabilidade**: Desde o início do projeto
 - **Mantenha-se atualizado**: O ecossistema JavaScript evolui rapidamente
 
-### 🚀 Próximos Passos:
+### Próximos Passos:
 - Explore frameworks como **Express.js** para backend
 - Aprenda sobre **APIs RESTful** e **GraphQL**
 - Pratique com **bancos de dados** (MongoDB, PostgreSQL)
@@ -243,6 +243,6 @@ function Page({ data }) {
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

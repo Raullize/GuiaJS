@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 📝 Operadores Lógicos com Strings
+# Operadores Lógicos com Strings
 
 Em JavaScript, os operadores lógicos (`&&`, `||` e `!`) não se limitam a valores booleanos. Eles podem ser utilizados com strings e outros tipos de dados, seguindo regras específicas de avaliação.
 
-## 🔀 Operador AND (`&&`)
+## Operador AND (`&&`)
 
 O operador `&&` retorna o **primeiro valor falsy** encontrado ou o **último valor** se todos forem truthy.
 
@@ -20,7 +20,7 @@ console.log("Olá" && null);    // null (null é falsy)
 console.log("Olá" && true);    // true (último valor, ambos são truthy)
 ```
 
-## 🔀 Operador OR (`||`)
+## Operador OR (`||`)
 
 O operador `||` retorna o **primeiro valor truthy** encontrado ou o **último valor** se todos forem falsy.
 
@@ -35,7 +35,7 @@ const nome = "" || "Usuário";  // Se nome for vazio, usa "Usuário"
 console.log(nome);             // "Usuário"
 ```
 
-## 🔀 Operador NOT (`!`)
+## Operador NOT (`!`)
 
 O operador `!` converte o valor para booleano e nega seu valor.
 
@@ -46,7 +46,7 @@ console.log(!!"Olá");     // true (dupla negação, converte para boolean true)
 console.log(!!"");        // false (dupla negação, converte para boolean false)
 ```
 
-## 🛠️ Aplicações Práticas
+## Aplicações Práticas
 
 ### Valores Padrão (antes do ES6)
 
@@ -79,6 +79,6 @@ function saudar(nome = "Visitante") {
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

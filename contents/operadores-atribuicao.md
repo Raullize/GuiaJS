@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 📝 Operadores de Atribuição
+# Operadores de Atribuição
 
 Os operadores de atribuição são utilizados para atribuir valores a variáveis. JavaScript oferece vários operadores que combinam operações com atribuição.
 
-## 📋 Operadores Básicos
+## Operadores Básicos
 
 | Operador | Descrição | Exemplo | Equivalente a |
 |----------|-----------|---------|---------------|
@@ -15,7 +15,7 @@ Os operadores de atribuição são utilizados para atribuir valores a variáveis
 | `/=`     | Atribuição com divisão | `x /= y` | `x = x / y` |
 | `%=`     | Atribuição com resto | `x %= y` | `x = x % y` |
 
-## 📚 Exemplos Básicos
+## Exemplos Básicos
 
 ```js
 let x = 10;
@@ -41,7 +41,7 @@ x %= 4; // x agora é 2 (6 % 4 = 2)
 console.log(x); // 2
 ```
 
-## 🔬 Operadores Avançados
+## Operadores Avançados
 
 JavaScript também oferece operadores de atribuição para operações bit a bit e de deslocamento.
 
@@ -58,7 +58,7 @@ JavaScript também oferece operadores de atribuição para operações bit a bit
 | `\|\|=`  | Atribuição com OR lógico (ES2021) | `x \|\|= y` | `x = x \|\| y` |
 | `??=`    | Atribuição com operador de coalescência nula (ES2021) | `x ??= y` | `x = x ?? y` |
 
-## 🎯 Exemplos Avançados
+## Exemplos Avançados
 
 ```js
 // Atribuição com exponenciação (ES2016)
@@ -89,7 +89,7 @@ d ??= "teste";
 console.log(d); // false (mantém o valor original)
 ```
 
-## 📌 Aplicações Práticas
+## Aplicações Práticas
 
 ### 1. Contador Simples
 
@@ -135,6 +135,6 @@ console.log(soma); // 15
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

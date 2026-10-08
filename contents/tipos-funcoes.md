@@ -1,10 +1,10 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-# 🔢 Tipos de Funções em JavaScript
+# Tipos de Funções em JavaScript
 
 JavaScript oferece diversas formas de declarar e usar funções, cada uma com características específicas.
 
-## 📝 Function Declaration (Declaração de Função)
+## Function Declaration (Declaração de Função)
 
 A forma tradicional de definir funções, com o identificador `function` seguido do nome da função.
 
@@ -21,7 +21,7 @@ console.log(somar(5, 3)); // 8
 - Tem nome obrigatório
 - Boa para funções principais do programa
 
-## 📝 Function Expression (Expressão de Função)
+## Function Expression (Expressão de Função)
 
 Funções definidas dentro de uma expressão, geralmente atribuídas a uma variável.
 
@@ -38,7 +38,7 @@ console.log(multiplicar(4, 2)); // 8
 - O nome da função é opcional (funções anônimas)
 - Útil para funções que serão passadas como argumentos
 
-## 🏹 Arrow Functions (Funções Flecha)
+## Arrow Functions (Funções Flecha)
 
 Introduzidas no ES6, são uma sintaxe mais concisa para escrever funções.
 
@@ -66,7 +66,7 @@ console.log(subtrair(7, 3)); // 4
 - Não pode ser usada como construtora (`new`)
 - Ideal para funções curtas e callbacks
 
-## 🏭 Funções Construtoras
+## Funções Construtoras
 
 Usadas para criar objetos usando o operador `new`.
 
@@ -89,7 +89,7 @@ console.log(pessoa1.apresentar()); // "Olá, meu nome é Ana e tenho 28 anos"
 - `this` refere-se ao novo objeto criado
 - Alternativa às classes para criação de objetos (antes do ES6)
 
-## 🎯 Métodos em Objetos
+## Métodos em Objetos
 
 Funções definidas como propriedades de objetos.
 
@@ -120,7 +120,7 @@ console.log(calculadora.somar()); // 8
 - `this` refere-se ao objeto que contém o método
 - Sintaxe concisa disponível no ES6+ (`metodo(){}` em vez de `metodo: function(){}`)
 
-## 🏭 Factory Functions (Funções Fábrica)
+## Factory Functions (Funções Fábrica)
 
 Funções que criam e retornam objetos, sem usar `new`.
 
@@ -144,7 +144,7 @@ console.log(pessoa2.apresentar()); // "Olá, meu nome é Carlos e tenho 32 anos"
 - Não usa `new`
 - Facilita a criação de closures e encapsulamento
 
-## 🧮 IIFE (Immediately Invoked Function Expression)
+## IIFE (Immediately Invoked Function Expression)
 
 Funções que são executadas imediatamente após serem definidas.
 
@@ -165,7 +165,7 @@ Funções que são executadas imediatamente após serem definidas.
 - Evita poluir o escopo global
 - Útil para isolar variáveis e evitar conflitos
 
-## 🎭 Funções Geradoras (Generator Functions)
+## Funções Geradoras (Generator Functions)
 
 Funções que podem ser pausadas e retomadas, retornando um iterador.
 
@@ -189,7 +189,7 @@ console.log(gerador.next().value); // 2
 - Mantém o estado entre chamadas
 - Úteis para criar iteradores e lidar com sequências infinitas
 
-## ⚙️ Hoisting e Funções
+## Hoisting e Funções
 
 O "hoisting" é um comportamento do JavaScript que move declarações para o topo do escopo atual.
 
@@ -207,9 +207,9 @@ const subtracao = function(a, b) {
 };
 ```
 
-> 📚 **Para uma explicação completa sobre hoisting em JavaScript, incluindo como ele afeta variáveis e funções, consulte o [guia dedicado sobre hoisting](hoisting.md).**
+> **Para uma explicação completa sobre hoisting em JavaScript, incluindo como ele afeta variáveis e funções, consulte o [guia dedicado sobre hoisting](hoisting.md).**
 
-## 🔧 Parâmetros Default (Padrão)
+## Parâmetros Default (Padrão)
 
 A partir do ES6, é possível definir valores padrão para parâmetros de funções.
 
@@ -225,6 +225,6 @@ console.log(saudar("João", "Bem-vindo")); // "Bem-vindo, João!"
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/> 
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>

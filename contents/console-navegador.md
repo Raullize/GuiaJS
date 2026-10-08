@@ -1,6 +1,6 @@
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=header"/>
 
-## 🖥️ Console do Navegador
+## Console do Navegador
 
 O console do navegador é uma ferramenta essencial para desenvolvedores, permitindo testar código JavaScript em tempo real, depurar scripts e visualizar logs. Para acessá-lo:
 
@@ -10,7 +10,7 @@ O console do navegador é uma ferramenta essencial para desenvolvedores, permiti
 - **Opera**: `Ctrl + Shift + I` ou `Command + Option + I` (Mac)
 - **Opera GX**: `Ctrl + Shift + C`
 
-#### 🔹 Comandos úteis no console:
+#### Comandos úteis no console:
 
 ```js
 console.log("Olá, mundo!"); // Exibe mensagens no console
@@ -21,6 +21,6 @@ console.table([ {nome: "Ana", idade: 25}, {nome: "Pedro", idade: 30} ]); // Exib
 
 ---
 
-[🔙 Voltar ao índice principal](../README.md)
+[Voltar ao índice principal](../README.md)
 
 <img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=F7DF1E&height=120&section=footer"/>
